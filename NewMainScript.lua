@@ -53,7 +53,7 @@ if not shared.VapeDeveloper then
 		wipeFolder('halovape/guis')
 		wipeFolder('halovape/libraries')
 	end
-	writefile('newvape/profiles/commit.txt', commit)
+	writefile('halovape/profiles/commit.txt', commit)
 end
 
 return loadstring(downloadFile('halovape/main.lua'), 'main')()
